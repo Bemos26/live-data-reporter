@@ -7,7 +7,7 @@ def show_menu():
     print("3. Get IBM stock price or US business headlines")  # Option 3: user chooses between two data types
     print("4. Exit")                          # Option 4: user can close the app
 
-    def main():
+def main():
         while True:
             show_menu()
             choice = input ("Please enter your choice (1-4):").strip()
@@ -23,5 +23,5 @@ def show_menu():
             else:
                 print("⚠️ Invalid choice. Try again.")
 
-    if __name__ == "__main__":
+if __name__ == "__main__":
         main()
