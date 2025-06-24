@@ -1,5 +1,6 @@
 import sys
 from astronauts import get_astronauts
+from iss_tracker import track_iss
 def show_menu():
     # This function prints the options your app offers.
     print("\n=== 🚀 Live Data Reporter ===")  # Adds a title/header for the menu
@@ -17,6 +18,7 @@ def main():
                 get_astronauts()
             elif choice == "2":
                   print("🛰️ Tracking ISS location...")
+                  track_iss()
             elif choice == "3":
                 print("📰 Retrieving IBM stock or business news...")
             elif choice == "4":

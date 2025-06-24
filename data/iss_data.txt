@@ -12,3 +12,7 @@
  - Li Guangsu aboard Tiangong
  - Li Cong aboard Tiangong
  - Ye Guangfu aboard Tiangong
+
+[2025-06-24 19:05:17] ISS Location:
+   Latitude:  -27.3637
+   Longitude: 91.4025
