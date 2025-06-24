@@ -1,4 +1,5 @@
 import sys
+from astronauts import get_astronauts
 def show_menu():
     # This function prints the options your app offers.
     print("\n=== 🚀 Live Data Reporter ===")  # Adds a title/header for the menu
@@ -13,6 +14,7 @@ def main():
             choice = input ("Please enter your choice (1-4):").strip()
             if choice == "1":
                 print ("Fetching astronaut data...")
+                get_astronauts()
             elif choice == "2":
                   print("🛰️ Tracking ISS location...")
             elif choice == "3":
