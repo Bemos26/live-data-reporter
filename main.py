@@ -1,4 +1,5 @@
 import sys
+from news_or_stock import fetch_choice
 from astronauts import get_astronauts
 from iss_tracker import track_iss
 def show_menu():
@@ -21,6 +22,7 @@ def main():
                   track_iss()
             elif choice == "3":
                 print("📰 Retrieving IBM stock or business news...")
+                fetch_choice()
             elif choice == "4":
                 print("👋 Exiting... Stay curious, Benson.")
                 sys.exit()  # Exits the program cleanly
